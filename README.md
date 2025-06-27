@@ -98,6 +98,12 @@ This is a RESTful API backend for a Dog Adoption Platform built with Node.js, Ex
    ```bash
    $ npm test
    ```
+
+#### Test cases cover:
+- User registration and login
+- Token-based auth
+- Dog CRUD + adoption logic
+- Ownership/adoption restrictions
 ## 📍 API Routes
 
 Below is a list of available RESTful API endpoints for the Dog Adoption Platform.
@@ -131,12 +137,6 @@ Authorization: Bearer <your_token>
 
 ---
 
-### 🧪 Testing (Optional)
-
-Run all test cases for API routes using:
-
-```bash
-npm test
 
 ## 🛠️ TODO
 
